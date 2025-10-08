@@ -40,3 +40,37 @@
 .read-the-docs {
   color: #888;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.CardDisplay {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  border-radius: 15px;
+  margin-left: 30px;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+}
+
+#LeftButton1 {
+  display: none;
+}
+
+#LeftButton2 {
+  display: flex;
+}
+
+#RightButton1 {
+  display: flex;
+}
+
+#RightButton2 {
+  display: none;
+}
